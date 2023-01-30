@@ -1,4 +1,4 @@
-# DeDash background callbacks with pyinstaller
+# Dash background callbacks with pyinstaller
 
 A working example of packaging a Plotly Dash app with background callbacks using [pyinstaller](https://pyinstaller.org).
 
