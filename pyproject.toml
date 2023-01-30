@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "2023-debug-long-callbacks"
+name = "2023-dash-background-callbacks-pyinstaller"
 version = "0.1.0"
 description = ""
 authors = ["Jon Thompson <jjt@tutanota.com>"]

@@ -29,7 +29,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='debuglc',
+    name='background_callbacks',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -49,11 +49,11 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='debuglc',
+    name='background_callbacks',
 )
 app = BUNDLE(
     coll,
-    name='debuglc.app',
+    name='background_callbacks.app',
     icon=None,
     bundle_identifier='scriptname',
 )

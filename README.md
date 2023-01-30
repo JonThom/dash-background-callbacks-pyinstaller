@@ -1,7 +1,6 @@
-# Debug Dash long callbacks
+# DeDash background callbacks with pyinstaller
 
-A working example of packaging a Plotly Dash app with long callbacks.
-Uses [pyinstaller](https://pyinstaller.org) for packaging, but should work for similar frameworks like cx_freeze. 
+A working example of packaging a Plotly Dash app with background callbacks using [pyinstaller](https://pyinstaller.org).
 
 The app is based on toy example at https://github.com/plotly/dash/issues/1885#issuecomment-1405490068, with the following changes:
 
@@ -18,10 +17,10 @@ poetry install
 
 build the app bundle
 ```shell
-poetry run pyinstaller --noconfirm debuglc.spec
+poetry run pyinstaller --noconfirm build.spec
 ```
 
 run the app
 ```shell
-./dist/debuglc/debuglc
+./dist/background_callbacks/background_callbacks
 ```
