@@ -10,6 +10,8 @@ The app is based on toy example at https://github.com/plotly/dash/issues/1885#is
 
 ## quick start
 
+install python poetry for virtual env and dependency management, following instructions at https://python-poetry.org/docs/
+
 install dependencies
 ```shell
 poetry install
