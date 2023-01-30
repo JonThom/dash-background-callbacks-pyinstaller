@@ -21,3 +21,7 @@ build the app bundle
 poetry run pyinstaller --noconfirm debuglc.spec
 ```
 
+run the app
+```shell
+./dist/debuglc/debuglc
+```
