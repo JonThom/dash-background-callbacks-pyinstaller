@@ -44,7 +44,10 @@ build the app bundle
 pyinstaller --noconfirm main.spec
 ```
 
-run the app
+run the app by running the executable or app bundle in the `dist` directory
+(depends on OS and build specs)
+
 ```shell
+# e.g., on macOS
 ./dist/main/main
 ```
