@@ -24,11 +24,10 @@ Make a `.spec` specification file for the build.
 See the [PyInstaller docs](https://pyinstaller.org/en/stable/usage.html) for options.
 
 ```shell
-# replace myscript with the main app script name
-pyinstaller myscript.py
+pyinstaller main.py
 ```
 
-in the new `myscript.spec` file, add the following `datas` to the Analysis call
+in the new `main.spec` file, add the following to the `datas` in `Analysis`
 ```{r}
 a = Analysis(
     ...,
@@ -42,12 +41,10 @@ a = Analysis(
 
 build the app bundle
 ```shell
-# replace myscript with the main app script name
-pyinstaller --noconfirm myscript.spec
+pyinstaller --noconfirm main.spec
 ```
 
 run the app
 ```shell
-# replace myscript with the main app script name
-./dist/myscript/myscript
+./dist/main/main
 ```
